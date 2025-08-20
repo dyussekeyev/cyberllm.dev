@@ -1,44 +1,46 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
+  font-size: 18px;
   background: linear-gradient(to bottom, #0A1F44, #1C2E50);
   color: #f4f4f4;
+  line-height: 1.7;
 }
 
 header {
   text-align: center;
-  padding: 80px 20px 40px;
+  padding: 60px 20px 30px;
   background: linear-gradient(to right, #0A1F44, #1877f2);
 }
 
 header h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-bottom: 10px;
   color: #ffffff;
 }
 
 .tagline {
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1.8rem;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 
 .subtitle {
-  font-size: 1rem;
+  font-size: 1.1rem;
   max-width: 700px;
   margin: 0 auto;
   color: #e0e0e0;
 }
 
 section {
-  padding: 60px 20px;
+  padding: 40px 20px;
   max-width: 1000px;
   margin: 0 auto;
 }
 
 h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
+  font-size: 2.2rem;
+  margin-bottom: 16px;
   color: #00C2D1;
 }
 
@@ -52,6 +54,7 @@ h2 {
 
 .card h3 {
   margin-top: 0;
+  font-size: 1.4rem;
   color: #ffffff;
 }
 
@@ -63,16 +66,16 @@ h2 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
 }
 
 .logo-container {
   width: 200px;
   height: 200px;
-  background-color: #ffffff;
+  background-color: white;
   padding: 10px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2); /* светлая тень */
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,8 +86,8 @@ h2 {
   max-height: 100%;
   object-fit: contain;
   border-radius: 8px;
-  border: 1px solid #ccc; /* рамка вокруг белых логотипов */
-  background-color: #fff; /* если логотип прозрачный, будет белый фон */
+  border: 1px solid #ccc;
+  background-color: #fff;
 }
 
 .team-grid {
@@ -104,12 +107,12 @@ h2 {
 
 .member h3 {
   margin: 10px 0 5px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #ffffff;
 }
 
 .member p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #cccccc;
 }
 
@@ -120,12 +123,8 @@ h2 {
 
 footer {
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   background: #0A1F44;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #cccccc;
 }
-
-
-
-

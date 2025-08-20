@@ -1,0 +1,91 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #1a1a1a;
+  line-height: 1.6;
+  background: #f9f9f9;
+  scroll-behavior: smooth;
+}
+
+section, header, footer {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Hero */
+#hero {
+  text-align: center;
+  padding-top: 100px;
+  background: #e9f1fb;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  color: #1877f2;
+}
+
+#hero .tagline {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Headings */
+h2 {
+  color: #1877f2;
+  margin-bottom: 20px;
+}
+
+/* Lists */
+ul {
+  list-style: disc inside;
+  margin-left: 20px;
+}
+
+/* Partners Logos */
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logos img {
+  max-height: 50px;
+  object-fit: contain;
+}
+
+/* Team */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.member img {
+  width: 100%;
+  border-radius: 50%;
+  max-width: 140px;
+}
+
+/* Contact */
+#contact a {
+  color: #1877f2;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #e9f1fb;
+  padding: 20px;
+  font-size: 0.9rem;
+}

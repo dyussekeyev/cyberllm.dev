@@ -1,91 +1,112 @@
-/* Reset & Base */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: Arial, sans-serif;
-  color: #1a1a1a;
-  line-height: 1.6;
-  background: #f9f9f9;
-  scroll-behavior: smooth;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #0A1F44, #1C2E50);
+  color: #f4f4f4;
 }
 
-section, header, footer {
+header {
+  text-align: center;
+  padding: 80px 20px 40px;
+  background: linear-gradient(to right, #0A1F44, #1877f2);
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #e0e0e0;
+}
+
+section {
   padding: 60px 20px;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
-/* Hero */
-#hero {
-  text-align: center;
-  padding-top: 100px;
-  background: #e9f1fb;
-}
-
-#hero h1 {
-  font-size: 3rem;
-  color: #1877f2;
-}
-
-#hero .tagline {
-  font-size: 1.2rem;
-  margin-top: 10px;
-}
-
-/* Headings */
 h2 {
-  color: #1877f2;
+  font-size: 2rem;
   margin-bottom: 20px;
+  color: #00C2D1;
 }
 
-/* Lists */
-ul {
-  list-style: disc inside;
-  margin-left: 20px;
+.card {
+  background: #ffffff10;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-/* Partners Logos */
+.card h3 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.card p {
+  color: #d0d0d0;
+}
+
 .logos {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 20px;
 }
 
 .logos img {
   max-height: 50px;
-  object-fit: contain;
+  filter: brightness(0) invert(1);
 }
 
-/* Team */
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 30px;
   text-align: center;
 }
 
 .member img {
-  width: 100%;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
   border-radius: 50%;
-  max-width: 140px;
+  border: 2px solid #00C2D1;
 }
 
-/* Contact */
+.member h3 {
+  margin: 10px 0 5px;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.member p {
+  font-size: 0.9rem;
+  color: #cccccc;
+}
+
 #contact a {
-  color: #1877f2;
+  color: #00C2D1;
   text-decoration: none;
 }
 
-/* Footer */
 footer {
   text-align: center;
-  background: #e9f1fb;
-  padding: 20px;
+  padding: 30px;
+  background: #0A1F44;
   font-size: 0.9rem;
+  color: #cccccc;
 }

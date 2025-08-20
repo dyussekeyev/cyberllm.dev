@@ -64,12 +64,7 @@ h2 {
   gap: 30px;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 20px;
-}
-
-.logos img {
-  max-height: 50px;
-  filter: brightness(0) invert(1);
+  margin-top: 40px;
 }
 
 .team-grid {
@@ -110,3 +105,4 @@ footer {
   font-size: 0.9rem;
   color: #cccccc;
 }
+

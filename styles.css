@@ -69,10 +69,10 @@ h2 {
 .logo-container {
   width: 200px;
   height: 200px;
-  background-color: white;
+  background-color: #ffffff;
   padding: 10px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2); /* светлая тень */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -123,5 +123,6 @@ footer {
   font-size: 0.9rem;
   color: #cccccc;
 }
+
 
 

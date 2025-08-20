@@ -59,12 +59,30 @@ h2 {
   color: #d0d0d0;
 }
 
-.logos {
+.logo-grid {
   display: flex;
-  gap: 30px;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 40px;
+  gap: 40px;
+}
+
+.logo-container {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
 }
 
 .team-grid {
@@ -105,4 +123,5 @@ footer {
   font-size: 0.9rem;
   color: #cccccc;
 }
+
 

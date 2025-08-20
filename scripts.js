@@ -1,4 +1,4 @@
-// Smooth scroll for internal links
+// Smooth scroll for internal links (optional)
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', e => {
     e.preventDefault();
